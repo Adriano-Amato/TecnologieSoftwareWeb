@@ -1,0 +1,201 @@
+body{
+	background-image:url("../images/campo-calcio.jpg");	
+	background-repeat:no-repeat;
+	background-size:auto;
+	object-fit:cover;
+}
+
+.stat{
+	text-align:center;
+	border-radius:8px;
+	margin-top:20px;
+	margin-left:auto;
+  	margin-right:auto;
+  	width:65%; 	
+  	background-color:#400080;
+}
+
+.dati{
+	text-align:center;
+	border-radius:8px;
+	margin-top:20px;
+	margin-left:auto;
+  	margin-right:auto;
+  	width:65%; 	
+  	background-color:#400080;
+}
+
+.acquisti{
+	text-align:center;
+	border-radius:8px;
+	margin-top:20px;
+	margin-left:auto;
+  	margin-right:auto;
+  	width:65%; 	
+  	background-color:#400080;
+}
+
+
+table {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #ddd;
+    margin-left:0;
+}
+
+table td, th {  
+    border: 1px solid transparent;
+    height: 10px; 
+    transition: all 0.3s;  
+}
+
+table th {  
+	text-align:center;
+    background: #DFDFDF; 
+    font-weight: bold;
+}
+
+table td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+
+
+
+tr:nth-child(even) td { background: #F1F1F1; }   
+      
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; } 
+
+h1{
+	color:black;
+}
+  
+  .emptycart button{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:transparent;
+  		border:0;
+  		color:white;
+  		font-family:bold;
+  		cursor:pointer;
+  		border-radius:15px;
+  		padding:10px 20px;
+  		transition: all 0.5s;
+  	}
+	
+	.emptycart button span {
+  		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+ 	 	transition: 0.5s;
+	}
+	
+	.emptycart button span:after {
+  		content: "\00bb";
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+ 	 	right:-20px;
+  		transition: 0.5s;
+	}
+	
+	.emptycart button:hover span {
+  		padding-right: 25px;
+	}	
+
+	.emptycart button:hover span:after {
+  		opacity: 1;
+  		right: 0;
+	}
+		
+	.emptycart button:hover{
+		background-color:red;
+	}
+	
+	
+	p{
+		width:50%;
+		display:inline-block;
+		border-radius:100px;
+		color:red;
+		font-weight:bold;
+	}
+
+	.testoIscrizione{
+		color: black;
+		font-weight:bold;
+	}	
+	
+	p:hover{
+		background:rgba(218,216,217,0.4);
+		transition:0.5s;
+	}
+	
+	.emptycart{
+		text-align:center;
+		float:right;
+		border-radius:8px;
+		margin-top:20px;
+	}
+	
+	.column{
+		margin-top:3%;
+		min-width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+		
+	.scaduta{
+		width:500px;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		border:20px solid #dad8d9;
+		background:#ececec;
+		border-radius:8px;	
+	}
+	
+	h1{
+	
+	border-radius:8px;
+	width:50%;
+	display:inline-block;
+	}
+	
+button#test{
+  background-color: #46008C;
+  color: white;
+  padding: 5px 20px;
+  border:0;
+  border-radius:8px;
+  cursor: pointer;
+  width: 40%;
+  display:inline-block;
+}
+	
+button#test:hover{
+  opacity: 0.8;
+  transition:0.5s;
+  background-color:#00ff00;
+  color:black;
+  font-weight:bold;
+}
+button#cover{
+	background-color:transparent;
+	border:0;
+	color:#400080;
+}
+	
+	
+  @media screen and (max-width: 600px) {
+	  body {
+		  background: white;
+	  }
+  }
+	

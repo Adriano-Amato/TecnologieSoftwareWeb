@@ -1,0 +1,177 @@
+	body{
+		background-color:white;
+	}
+	
+	.container-fluid#cart{
+		width:40%;
+		background: rgba(255, 255, 255, .08);
+	}
+
+	.emptycart p{
+		text-align:center;
+		font-size:25px;
+		color:black;	
+	}
+	
+	.emptycart img{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:200px;
+	}
+	
+	.emptycart button{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:#46008C;
+  		border:0;
+  		color:white;
+  		font-family:bold;
+  		cursor:pointer;
+  		border-radius:8px;
+  		padding:10px 20px;
+  		transition: all 0.5s;
+  	}
+	
+	.emptycart button span {
+  		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+ 	 	transition: 0.5s;
+	}
+	
+	.emptycart button span:after {
+  		content: "\00bb";
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+ 	 	right:-20px;
+  		transition: 0.5s;
+	}
+	
+	.emptycart button:hover span {
+  		padding-right: 25px;
+	}	
+
+	.emptycart button:hover span:after {
+  		opacity: 1;
+  		right: 0;
+	}
+		
+	.emptycart button:hover{
+		background-color:red;
+	}
+	
+	.container-fluid#fullcart{
+		margin-top:1%;
+		width:50%;
+		float:left;
+	}
+	
+	.product{
+		border-top:1px solid grey;
+		border-bottom:1px solid grey;
+	}
+	
+	.product h5{
+		font-weight:bold;
+		text-align:left;
+		
+	}
+	
+	.product p{
+		text-align:left;
+	}
+	
+	.product a:link, a:visited {
+  		background-color: #46008C;
+  		padding: 5px 5px;
+  		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		border-radius:8px;
+	}
+
+	.product a:hover, a:active {
+  		background-color:red;
+  		transition:0.4s;
+	}
+	
+	.container-fluid#cassa{
+		margin-top:1%;
+		width:20%;
+		background:#ececec;
+		border-radius:8px;
+		float:left;
+	}
+	
+	.container-fluid#cassa p{
+		text-align:center;
+		font-style:bold;
+	}	
+	
+	button#elimina{
+		font-size:80%;
+		background-color:transparent;
+		border:0;
+		border-right:2px solid #c0c0c0;
+		border-left:2px solid #c0c0c0;
+	}
+	
+	button#elimina:hover{
+		background-color:transparent;
+		color:blue;
+		text-decoration:underline;
+	}	
+	
+	button#cassa1,button#cassa2{
+		display:block;
+		background-color:transparent;
+  		border:0;
+  		color:black;
+  		cursor:pointer;
+  		border-radius:8px;
+  		padding:2px 2px;
+  		transition: all 0.5s;
+  		margin-right:auto;
+  		margin-left:auto;
+  		margin-top:5%;
+  	}
+	
+	button#cassa1 span,button#cassa2 span {
+  		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+ 	 	transition: 0.5s;
+	}
+	
+	button#cassa1 span:after, button#cassa2 span:afte  {
+  		content: "\00bb";
+  		position: absolute;
+  		opacity: 0;
+  		transition: 0.5s;
+  		display:block;
+	}
+	
+	button#cassa1:hover span,button#cassa2:hover span {
+  		padding-right: 25px;
+	}	
+
+	button#cassa1:hover span:after,button#cassa2:hover span:after {
+  		opacity: 1;
+  		right: 0;
+	}
+	
+	button#cassa1:hover{
+		background-color:#ff2828;
+	}
+	
+	button#cassa2:hover{
+		background-color:#00ff00;
+	}	
+	
+	p#tot{
+		font-weight:bold;
+	}
+	

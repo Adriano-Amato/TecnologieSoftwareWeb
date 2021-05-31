@@ -1,0 +1,162 @@
+body{
+	background-image:url("../images/campo-calcio.jpg");	
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	object-fit:cover;
+}
+
+.EntrateTotali{
+	text-align:center;	
+	border-radius:8px;
+	margin-top:20px;
+	width:640px;
+	background-color:#400080;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Acquisti{
+	text-align:center;	
+	border-radius:8px;
+	margin-top:20px;
+	width:640px;
+	background-color:#400080;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+.Iscrizioni{
+	text-align:center;	
+	border-radius:8px;
+	margin-top:20px;
+	width:640px;
+	background-color:#400080;
+	margin-left:auto;
+	margin-right:auto;	
+}
+.Staff{
+	text-align:center;	
+	border-radius:8px;
+	margin-top:20px;
+	width:640px;
+	background-color:#400080;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom:2%;
+}
+.Iscritti{
+	text-align:center;	
+	border-radius:8px;
+	margin-top:20px;
+	width:640px;
+	background-color:#400080;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+.Squadre{
+	text-align:center;	
+	border-radius:8px;
+	margin-top:20px;
+	width:640px;
+	background-color:#400080;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+table { 
+	width:640px;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+
+th {  
+	width:640px;
+    background: #DFDFDF; 
+    font-weight: bold;
+}
+
+tbody td {
+	width:640px;
+    background: #FAFAFA;
+    text-align: center;
+}
+
+thead {
+    display: block;
+}
+
+tbody {
+    display: block;
+    overflow:auto;
+    max-height:150px;
+}
+
+thead th, tbody td {
+    border: 1px solid transparent;
+    transition: all 0.3s; 
+}
+
+
+
+tr:nth-child(even) td { background: #F1F1F1; }   
+      
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; } 
+
+h1{
+	color:black;
+}
+
+	.container{
+	margin:0 auto;
+
+	}
+	
+	.column#table{
+		min-width:50%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.column#button{
+		display:inline-block;
+	}
+
+	.back{
+		background-color:#400080;
+		max-width:640px;
+		margin-left:auto;
+	 	margin-right:auto;
+	 	border-radius:8px;
+	}
+
+button{
+	background-color:transparent;
+	border:0;
+	color:white;
+}
+
+
+  @media screen and (max-width: 600px) {
+	  body {
+		  background: white;
+	  }
+  }
+  
+button#cover{
+	background-color:transparent;
+	border:0;
+	color:#400080;
+	cursor:default;
+}
+	
+	

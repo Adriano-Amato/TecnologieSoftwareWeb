@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/classes/controller/AddSquadraController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/classes/controller/CarrelloController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/classes/controller/ChangeStatsController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/classes/controller/ProductModifyController.java" charset="windows-1252" />
+  </component>
+</project>

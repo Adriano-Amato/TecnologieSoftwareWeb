@@ -1,0 +1,87 @@
+body{
+	background-image:url("../images/campo-calcio.jpg");
+	background-repeat:no-repeat;
+	background-size:auto;
+}
+
+.squad{
+	text-align:center;
+	border-radius:8px;
+}
+
+.bambini{
+	text-align:center;
+	float:left;
+	background-color:#400080;
+	border-radius:8px;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+.staff{
+	text-align:center;
+	float:left;
+	background-color:#400080;
+	border-radius:8px;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+table {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 640px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:auto;
+    margin-right:auto; 
+    
+}
+
+table#squad{
+	color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+table td, th {  
+    border: 1px solid transparent;
+    height: 10px; 
+    transition: all 0.3s;  
+}
+
+table th {  
+	text-align:center;
+    background: #DFDFDF; 
+    font-weight: bold;
+}
+
+table td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+
+
+
+tr:nth-child(even) td { background: #F1F1F1; }   
+      
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; } 
+
+h1{
+	color:black;
+}
+
+  @media screen and (max-width: 600px) {
+  body{
+    background:white;
+  }
+
+
+
+

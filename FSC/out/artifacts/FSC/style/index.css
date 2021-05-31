@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image:url("../images/campo-calcio.jpg");
+	background-repeat:no-repeat;
+	background-size:auto;
+	
+}
+
+.container-fluid#card{
+	width:85%;	
+}
+
+.column{
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+.card-deck.card{
+	margin-left:10%;
+	
+}
+
+.card{
+	width:80%;
+	margin-top:3%;
+}
+
+.card img{
+	height:450px;
+	object-fit:cover;
+}
+
+.container-fluid#us{
+	margin-top:4%;
+}
+
+.container-fluid .slide{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:20px;
+}
+
+h5{
+	background-color:white;
+	color:black;
+}
+
+footer{
+	margin-top:1%;
+	border-top:10px solid #ddd;
+	background:#ececec;
+}
+
+.card-deck{
+	margin-left:auto;
+	margin-right:auto;
+} 	
+
+.column.footer{
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+	text-align:left;
+}
+
+
+.column.us{
+	width:33%;
+}
+
+.column.us img{
+	object-fit:cover;
+	object-position:10px 20%;
+	height:120px;
+}
+
+@media screen and (max-width: 600px) {
+	.column.us, column, img {
+		width: 100%;
+	}
+}
+  
+  @media screen and (max-width: 600px) {
+	  body {
+		  background: white;
+	  }
+  }
+  
+  @media screen and (min-width: 2000px) {
+	  footer{
+		  position:absolute;
+		  bottom:0
+	  }
+  }
+
+
+	
+
+ 		
+
+
+

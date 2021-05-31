@@ -1,0 +1,45 @@
+body{
+	background-color:white;
+}
+
+button{
+  background-color: #46008C;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius:8px;
+  cursor: pointer;
+  width: 40%;
+  display:inline-block;
+}
+	
+button:hover {
+  opacity: 0.8;
+  transition:0.5s;
+  background-color:red;
+}
+
+button:after{
+	color:red;
+} 
+
+.butt{
+	margin-left:20%;
+}
+
+.container-fluid#reg{
+	width:500px;
+	margin-top:2%;
+	border:20px solid #dad8d9;
+	background:#ececec;
+	border-radius:8px;	
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2% 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}

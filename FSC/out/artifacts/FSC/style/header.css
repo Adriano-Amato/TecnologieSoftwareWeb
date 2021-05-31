@@ -1,0 +1,21 @@
+.navbar{
+    border-bottom:5px solid #400080;
+}
+
+.navbar li:hover{
+    background-color:blue;
+    transition:0.5s;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.dropdown-menu{
+    background-color:white;
+}
+
+.dropdown-menu a:hover {
+    background-color:#400080;
+    content: "\00bb";
+    transition: 0.5s;
+    color:white;
+}

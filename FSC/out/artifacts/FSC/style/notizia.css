@@ -1,0 +1,24 @@
+body{
+	background:#ddd;
+}
+
+.container-fluid{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:70%;
+	background:white;
+	height:100%;
+}
+
+header{
+	text-align:center;
+	font-weight:bold;
+	font-size:50px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-variant: small-caps;
+	color:black;
+}
+
+header:first-letter{
+	font-size:80px;
+	color:#46008C
+}

@@ -1,0 +1,66 @@
+body{
+	background-image:url("../images/campo-calcio.jpg");
+	background-repeat:no-repeat;
+	background-size:auto;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2% 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button{
+  background-color: #46008C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  margin-left:30%;
+  border: 1px solid black;
+  border-radius:8px;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+  transition:0.5s;
+  background-color:red;
+}
+
+button:after{
+	color:red;
+}
+
+.container-fluid#log{
+	width:500px;
+	margin-top:1%;
+	border:20px solid #dad8d9;
+	background:#ececec;
+	border-radius:8px;	
+}
+.container-fluid#page{
+	margin-top:2%;
+	width:50%;
+	border-top:5px solid #dad8d9;
+}
+
+.logo img{
+	width:100px;
+	display:block;
+	margin-top:1%;
+	margin-left:auto;
+	margin-right:auto;
+	float: center;
+}
+
+h1{
+	color:black;
+}
+
+

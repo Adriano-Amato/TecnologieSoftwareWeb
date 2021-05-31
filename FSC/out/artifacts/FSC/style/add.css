@@ -1,0 +1,110 @@
+body{
+	background-color:white;
+	overflow-x:hidden;
+}
+
+button,button#test{
+  background-color: #46008C;
+  color: white;
+  padding: 5px 20px;
+  border:0;
+  border-radius:8px;
+  cursor: pointer;
+  width: 40%;
+  display:inline-block;
+  margin-left:30%;
+}
+
+input.button-like {
+	background-color: #46008C;
+	color: white;
+    padding: 5px 20px;
+    border:0;
+    border-radius:8px;
+    cursor: pointer;
+    width: 40%;
+    display:inline-block;
+    margin-top: 20px;
+    margin-left:30%;
+}
+	
+button:hover,button#test:hover ,input.button-like:hover {
+  opacity: 0.8;
+  transition:0.5s;
+  background-color:#00ff00;
+}
+
+.container-fluid#add{
+	max-width:550px;
+	margin-top:2%;	
+}
+
+input[type=text],input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 2%;
+  margin-bottom:2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:8px;
+}
+
+h1{
+	text-align:center;
+	font-weight:bold;
+	color:#400080;
+}
+
+
+select#ruolo,select#squadDest,select#iscritto,select#staff{
+	border:1px solid black;
+	border-radius:8px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    background-color:#ddd;
+}
+
+
+select#ruolo:active,select#squadDest:active,select#iscritto:active,select#staff:active{
+	background-color:white;
+}
+
+select#ruolo option,select#squadDest option,select#iscritto option,select#staff option{
+	color:black;
+}
+
+select#ruolo option:hover, select#squadDest option:hover ,select#iscritto option:hover,select#staff option:hover{
+	color:white;
+	background-color:#400080;
+	
+}
+
+
+.error{
+	box-shadow: 0 0 3px #CC0000; margin: 10px;
+}
+		
+.errTextInterior{
+	color: red;
+	text-align: center;
+}
+ 
+
+  @media screen and (max-width: 600px) {
+  .container-fluid#add{
+  	min-width:70%;
+  }
+  
+
+
+
+
+
+
+
+
+
+

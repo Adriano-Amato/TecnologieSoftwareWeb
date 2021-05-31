@@ -1,0 +1,159 @@
+body{
+	overflow-x: hidden;
+}
+
+.navbar{
+	border-bottom:5px solid #400080;
+}
+
+.navbar li:hover{
+	background-color:blue;
+	transition:0.5s;
+	border-radius:8px;
+	cursor:pointer;
+}
+
+.dropdown-menu{
+	background-color:white;
+}
+
+.dropdown-menu a:hover {
+		background-color:#400080;
+		content: "\00bb";
+  		transition: 0.5s;
+  		color:white;
+} 
+
+.column{
+	min-width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	float: left;
+	}
+	
+.card-deck{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top:2%;
+}
+
+.card img{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:70px;
+	max-height:70px;
+	transition: .5s ;
+	margin-top:4%;
+}
+
+.card img:hover{
+	transform: scale(1.5);
+}
+
+.card img:after {
+	transition:.5s;
+}
+	
+p{
+	margin:0;
+	font-weight:bold;
+	/*font:20%;*/
+}
+
+
+	button#cart ,button.product{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:5%;
+		background-color:#46008C;
+  		border:0;
+  		color:white;
+  		/*font-family:bold;*/
+  		cursor:pointer;
+  		border-radius:8px;
+  		padding:10px 20px;
+  		transition: all 0.5s;
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	}
+  	
+
+	
+	button#cart span,button.product span {
+  		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+ 	 	transition: 0.5s;
+	}
+	
+	button#cart span:after ,button.product span:after {
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+  		transition: 0.5s;
+	}
+
+	button#cart:hover span:after ,button.product:hover span:after{
+  		opacity: 1;
+  		right: 0;
+	}
+		
+	button#cart:hover,button.product:hover{
+		background-color:red;
+	}
+
+	button#op{
+		position:fixed;
+		background-color:red;
+  		border:0;
+  		color:white;
+  		/*font-family:bold;*/
+  		cursor:pointer;
+  		border-radius:8px;
+  		padding:10px 20px;
+  		transition: all 0.5s;
+  		bottom:0;
+  		right:0;
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 10px;
+  	}
+	
+	button#op span {
+  		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+ 	 	transition: 0.5s;
+	}
+	
+	button#op span:after {
+  		content: "\00bb";
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+ 	 	right:-20px;
+  		transition: 0.5s;
+	}
+	
+	button#op:hover span {
+  		padding-right: 25px;
+	}	
+
+	button#op:hover span:after {
+  		opacity: 1;
+  		right: 0;
+	}
+	
+	button#op2{
+	border-radius:8px;
+	margin-left:0;
+	display:inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	}
+	
+	
+	
